@@ -1,0 +1,269 @@
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Tue Dec 06 00:25:55 -0500 2011
+  Processing by Rails::InfoController#properties as HTML
+Rendered inline template (11.7ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Dec 06 01:18:38 -0500 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Compiled application.css  (5ms)  (pid 25659)
+Compiled home.css  (5ms)  (pid 25659)
+Compiled styles.css  (0ms)  (pid 25659)
+Compiled application.js  (212ms)  (pid 25659)
+Compiled jquery.js  (260ms)  (pid 25659)
+Compiled jquery_ujs.js  (87ms)  (pid 25659)
+Compiled HYPE.js  (21ms)  (pid 25659)
+Compiled home.js  (1977ms)  (pid 25659)
+Compiled interface.js  (9ms)  (pid 25659)
+Compiled jcarousellite_1.0.1.pack.js  (3ms)  (pid 25659)
+Compiled jcarousellite_1.0.1c4.js  (29ms)  (pid 25659)
+Compiled jquery-latest.pack.js  (10ms)  (pid 25659)
+Completed 200 OK in 4580ms (Views: 4579.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Dec 06 01:18:46 -0500 2011
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Tue Dec 06 01:18:46 -0500 2011
+Served asset /home.css - 200 OK (47ms)
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at Tue Dec 06 01:18:46 -0500 2011
+Served asset /styles.css - 200 OK (33ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Dec 06 01:18:46 -0500 2011
+Served asset /jquery.js - 200 OK (159ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Dec 06 01:18:46 -0500 2011
+Served asset /jquery_ujs.js - 200 OK (54ms)
+
+
+Started GET "/assets/HYPE.js?body=1" for 127.0.0.1 at Tue Dec 06 01:18:46 -0500 2011
+Served asset /HYPE.js - 200 OK (8ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Tue Dec 06 01:18:46 -0500 2011
+Served asset /home.js - 200 OK (118ms)
+
+
+Started GET "/assets/interface.js?body=1" for 127.0.0.1 at Tue Dec 06 01:18:46 -0500 2011
+Served asset /interface.js - 200 OK (12ms)
+
+
+Started GET "/assets/jcarousellite_1.0.1.pack.js?body=1" for 127.0.0.1 at Tue Dec 06 01:18:46 -0500 2011
+Served asset /jcarousellite_1.0.1.pack.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery-latest.pack.js?body=1" for 127.0.0.1 at Tue Dec 06 01:18:46 -0500 2011
+Served asset /jquery-latest.pack.js - 200 OK (76ms)
+
+
+Started GET "/assets/jcarousellite_1.0.1c4.js?body=1" for 127.0.0.1 at Tue Dec 06 01:18:47 -0500 2011
+Served asset /jcarousellite_1.0.1c4.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Dec 06 01:18:47 -0500 2011
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/css/styles.css" for 127.0.0.1 at Tue Dec 06 01:18:47 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/css/styles.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/js/jquery-latest.pack.js" for 127.0.0.1 at Tue Dec 06 01:18:47 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery-latest.pack.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/js/jcarousellite_1.0.1c4.js" for 127.0.0.1 at Tue Dec 06 01:18:47 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/js/jcarousellite_1.0.1c4.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/js/interface.js" for 127.0.0.1 at Tue Dec 06 01:18:47 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/js/interface.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/HarvardPulse_Resources/harvardpulse_hype_generated_script.js?50595" for 127.0.0.1 at Tue Dec 06 01:18:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/HarvardPulse_Resources/harvardpulse_hype_generated_script.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/home.jpg" for 127.0.0.1 at Tue Dec 06 01:18:49 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/images/thenews.jpg" for 127.0.0.1 at Tue Dec 06 01:19:00 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/thenews.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/add.jpg" for 127.0.0.1 at Tue Dec 06 01:19:00 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/add.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/images/mail.jpg" for 127.0.0.1 at Tue Dec 06 01:19:00 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/mail.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.1ms)
+
+
+Started GET "/images/weather.jpg" for 127.0.0.1 at Tue Dec 06 01:19:00 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/weather.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/info.jpg" for 127.0.0.1 at Tue Dec 06 01:19:00 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/info.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/js/jquery-latest.pack.js" for 127.0.0.1 at Tue Dec 06 01:19:00 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/js/jquery-latest.pack.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/css/styles.css" for 127.0.0.1 at Tue Dec 06 01:19:00 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started GET "/images/1.jpg" for 127.0.0.1 at Tue Dec 06 01:19:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/1.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/2.jpg" for 127.0.0.1 at Tue Dec 06 01:19:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/2.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/3.jpg" for 127.0.0.1 at Tue Dec 06 01:19:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/3.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/4.jpg" for 127.0.0.1 at Tue Dec 06 01:19:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/4.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/5.jpg" for 127.0.0.1 at Tue Dec 06 01:19:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/5.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/js/jcarousellite_1.0.1c4.js" for 127.0.0.1 at Tue Dec 06 01:19:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/js/jcarousellite_1.0.1c4.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/6.jpg" for 127.0.0.1 at Tue Dec 06 01:19:16 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/6.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/js/interface.js" for 127.0.0.1 at Tue Dec 06 01:19:16 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/js/interface.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/HarvardPulse_Resources/harvardpulse_hype_generated_script.js?50595" for 127.0.0.1 at Tue Dec 06 01:19:16 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/HarvardPulse_Resources/harvardpulse_hype_generated_script.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/home.jpg" for 127.0.0.1 at Tue Dec 06 01:19:16 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/home.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/images/dock-bg2.gif" for 127.0.0.1 at Tue Dec 06 01:19:17 -0500 2011
+Served asset /images/dock-bg2.gif - 404 Not Found (88ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/dock-bg2.gif"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)

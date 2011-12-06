@@ -1,0 +1,175 @@
+/****************************************************************************
+ * styles.css
+ *
+ * Computer Science 50
+ *
+ * Global stylesheet.
+ ***************************************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* eliminate borders around images in anchor tags */
+a img
+{
+    border: 0;
+}
+
+/* defaults for body */
+body
+{
+    background: #ffffff;
+    color: #000000;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* center text in bottom div */
+div#bottom
+{
+    margin: 1em;
+    text-align: center;
+}
+
+/* center text in middle div */
+div#middle
+{
+    text-align: center;
+}
+
+/* center text in top div */
+div#top
+{
+    text-align: center;
+}
+
+#hnav
+{
+    font-family: Arial,Sans-Serif;
+    margin: 0 auto;
+    width: 70%;
+    border-bottom: 1px solid #ddd;
+}
+
+#navlist
+{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    text-indent: 0;
+    list-style-type: none;
+}
+
+#navlist li
+{
+padding: 0;
+margin: 0;
+text-indent: 0;
+display: inline;
+}
+
+#navlist li a
+{
+letter-spacing: -1px;
+text-decoration: none;
+color: gray;
+font-size: 1em;
+padding: 0 2px;
+border-top: .5em solid #eee;
+}
+
+#navlist li a:hover,#navlist a#current
+{
+color: orange;
+border-top: none;
+font-size: 1.5em;
+}
+
+#navlist a#current { color: orange; }
+      
+#newsticker-demo {  
+    width:310px;  
+    background:#EAF4F5;  
+    padding:5px 5px 0;  
+    font-family:Verdana,Arial,Sans-Serif;  
+    font-size:12px;  
+    margin:20px auto;  
+}  
+      
+#newsticker-demo a { text-decoration:none; }  
+    
+#newsticker-demo img { border: 2px solid #FFFFFF; }  
+      
+#newsticker-demo.title {  
+    text-align:center;  
+    font-size:14px;  
+    font-weight:bold;  
+    padding:5px;  
+}  
+      
+.newsticker-jcarousellite { width:300px; }  
+
+.newsticker-jcarousellite ul li { 
+    list-style:none; 
+    display:block; 
+    padding-bottom:1px; 
+    margin-bottom:5px; 
+}  
+
+.newsticker-jcarousellite.thumbnail {
+    float:left; 
+    width:110px; 
+}  
+
+.newsticker-jcarousellite.info { 
+    float:right; 
+    width:190px; 
+}
+  
+.newsticker-jcarousellite.info.span.cat { 
+    display: block; 
+    font-size:10px; 
+    color:#808080; 
+}  
+      
+.clear { clear: both; }
+
+img {
+	border: none;
+}
+
+/* dock - top */
+.dock {
+	position: relative; 
+	height: 50px; 
+	text-align: center;
+}
+.dock-container {
+	position: absolute;
+	height: 50px;
+	background: url(images/dock-bg2.gif);
+	padding-left: 20px;
+}
+a.dock-item {
+	display: block;
+	width: 40px;
+	color: #000;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.dock-item img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+.dock-item span {
+	display: none; 
+	padding-left: 20px;
+}
+
